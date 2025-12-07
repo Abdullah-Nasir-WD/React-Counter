@@ -28,11 +28,11 @@ function App() {
 
       <div className='flex justify-around '>
 
-        <button onClick={increase} className='border-2 border-white hover:bg-amber-400 hover:shadow-2xl hover:scale-105 hover:shrink-0 hover:text-black cursor-pointer'>Increament!</button>
+        <button onClick={increase} className='border-2 border-white hover:bg-amber-400 hover:shadow-2xl hover:scale-105 hover:shrink-0 hover:text-black cursor-pointer p-2.5 px-5 mt-3'>Increament!</button>
 
-        <button onClick={decrease} className='border-2 border-white hover:bg-amber-400 hover:shadow-2xl hover:scale-105 hover:shrink-0 hover:text-black cursor-pointer'>Decreament!</button>
+        <button onClick={decrease} className='border-2 border-white hover:bg-amber-400 hover:shadow-2xl hover:scale-105 hover:shrink-0 hover:text-black cursor-pointer px-5 mt-3'>Decreament!</button>
 
-        <button onClick={reset} className='border-2 border-white hover:bg-amber-400 hover:shadow-2xl hover:scale-105 hover:shrink-0 hover:text-black cursor-pointer'>Reset!</button>
+        <button onClick={reset} className='border-2 border-white hover:bg-amber-400 hover:shadow-2xl hover:scale-105 hover:shrink-0 hover:text-black cursor-pointer px-5 mt-3'>Reset!</button>
       </div>
     </>
   );
