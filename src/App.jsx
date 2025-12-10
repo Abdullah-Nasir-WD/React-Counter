@@ -19,8 +19,6 @@ function App() {
 
   return (
     <>
-      {/* <div>Hello World</div>
-      <Greetings name="Anas" age = {21}/> */}
 
       <h1 className='text-3xl text-center py-5 font-semibold bg-amber-400 text-white'>React Counter</h1>
       
